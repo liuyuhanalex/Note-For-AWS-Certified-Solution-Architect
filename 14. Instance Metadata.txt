@@ -1,0 +1,9 @@
+Instance Metadata
+1. Curl is a tool to transfer data from or to a server.
+ex: curl http://169.254.169.254/latest/user-data 
+Get the boot strap script of the ec2 instance
+
+Instance metadata
+Used to get information about an instance(such as public ip)
+1. curl http://169.254.169.254/latest/meta-data/
+2. curl http://169.254.169.254/latest/user-data/

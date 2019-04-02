@@ -1,0 +1,11 @@
+EFS(Amazon Elastic File System)
+is a file storage service for Amazon Elastic Compute Cloud(Amazon EC2) instances.
+Amazon EFS is easy to use and provides a simple interface that allows you to create and configure file systems quickly and easily. With Amazon EFS, storage capacity is elastic, growing and shrinking automatically as you add and remove files, so your applications have the storage they need, when they need it.
+
+Exam tips:
+1. Supports the Network File System version 4 (NFSv4) protocol
+2. You only pay for the storage you use(no pre-provisioning required)
+3. Can scale up to the petabytes
+4. Can support thousands of concurrent NFS connections
+5. Data is stored across multiple AZ's within a region
+6. Read after write consistency

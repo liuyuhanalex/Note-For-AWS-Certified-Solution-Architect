@@ -1,0 +1,10 @@
+AWS Command Lines:
+1. AWS configure
+2. aws s3 ls: listing all the s3 bucket
+3. aws s3 mb s3://bucketname: make a s3 bucket
+4. hidden directory: cd .aws
+
+Exam tips:
+1. You can interact with AWS from anywhere in the world just by using the command line(CLI).
+2. You will need to set up access in IAM.
+3. Commands themselves are not in the exam, but some basic commands will be useful to know for real life.

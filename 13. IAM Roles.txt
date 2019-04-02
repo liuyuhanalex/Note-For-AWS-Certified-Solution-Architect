@@ -1,0 +1,10 @@
+Identity Access Management Roles
+
+Attach the role to an EC2 instance:
+Actions-> Instance Settings ->Attach/replace IAM roles
+
+Exam tips:
+1. Roles are more secure than storing your access key and secret access key on individual EC2 instances.
+2. Roles are easier to manage.
+3. Roles can be assigned to an EC2 instance after it is created using both the console & command line.
+4. Roles are universal - you can use them in any region.
