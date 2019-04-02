@@ -1,0 +1,10 @@
+Aurora
+Amazon Aurora is a MySQL-compatible, relational database engine that combines the speed and availability of high-end commercial databases with the simplicity and cost-effectiveness of open source databases.
+
+Things to know about Aurora:
+1. Start with 10GB, Scales in 10GB increments to 64TB(Storage Autoscaling)
+2. Compute resources can scale up to 32vCPUs and 244GB of Memory
+3. 2 copies of your data is contained in each availability zone, with minimum of 3 availability zones, 6 copies of your data.
+4. Aurora is designed to transparently handle the loss of up to two copies of data without affecting database write availability and up tp three copies without affecting read availability.
+5. Aurora storage is also self-healing. Data blocks and disks are continuously scanned for errors and repaired automatically.
+6. You can share Aurora Snappshots with other AWS accounts.

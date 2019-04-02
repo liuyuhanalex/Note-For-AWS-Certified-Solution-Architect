@@ -1,0 +1,10 @@
+ElastiCache
+It is a web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud. The service improves the performance of web applications by allowing you to retrieve information from fast,managed,in-memory caches,instead of relying entirely on slower disk-based databases.
+
+Memcached VS Reddis
+
+Exam tips:
+1. Use Elasticache to increase database and web application performance.
+2. Reddis is Multi-AZ
+3. You can do back ups and restores of Reddis
+4. If you need to scale horizontally, use Memcached.

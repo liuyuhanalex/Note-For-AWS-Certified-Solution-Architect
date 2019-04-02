@@ -1,0 +1,30 @@
+Relational databases on AWS
+1. SQL Server
+2. Oracle
+3. MySQL Server
+4. PostgreSQL
+5. Aurora
+6. MariaDB
+
+RDS has two key features:
+1. Muti-AZ-For Disaster Recovery
+2. Read Replicas - For Performance
+
+Non Relational Databases: DynamoDB
+
+OTLP: Online Transaction Processing
+OLAP: Online Analytics Processing
+
+Amazon's Data Warehouse Solution is Called redshift.
+
+ElastiCache:(1)Memcached (2)Redis
+
+Redshift for Business Intelligence or Data Warehousing.
+Elasticache to speed up performance of existing databases(frequent identical queries).
+
+Exam tips:
+1. RDS runs on virtual machines
+2. You cannot log in to these operating systems however
+3. Oatching of the RDS Operating System and DB is Amazon's responsibility
+4. RDS is NOT Serverless
+5. Aurora Serverless IS Serverless
