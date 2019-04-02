@@ -18,3 +18,15 @@ Exam tips:
 4. Additional volumes can be encrypted.
 
 EC2 Security Groups
+1. Assign more than one security groups for ec2 instance: Actions->Networking->Change Security Groups
+
+Exam tips:
+1. All Inbound traffic is blocked by default
+2. All Outbound traffic is allowed
+3. Changes to Security Groups take effect immediately
+4. You can have any number of EC2 instances within a security group
+5. You can have multiple security groups attached to EC2 Instances
+6. Security Groups are stateful
+7. If you create an inbound rule allowing traffic in, that traffic is automatically allowed back out again
+8. You cannot block specific IP addresses using Security Groups, instead use Network Access Control Lists.
+9. You can specify allow rules, but not deny rules.
