@@ -1,0 +1,4 @@
+AWS Global Infrastructure
+1.An availability zone is a kind of data center(maybe several near data center)
+2.A Region is a geographical area. Each Region consists of 2(or more) availability zone.
+3.Edge locations are endpoints for AWS which are used for caching content.ex: CDN

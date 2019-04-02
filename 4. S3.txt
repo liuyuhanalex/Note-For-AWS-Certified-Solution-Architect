@@ -1,0 +1,71 @@
+S3 Basics:
+1.S3 is Object-based
+2.Files can be from 0 Bytes to 5TB
+3.There is unlimited storage
+4.Files are stored in Buckets
+
+S3 Object Include:
+1. Key(The name of the object)
+2. Value(The data of the object)
+3. Version ID (Important for versioning)
+4. Metadata (Data about data you are storing)
+5. Subresources (1)Access Control Lists (2) Torrent
+
+S3 Consistency:
+1.Read after Write consistency for PUTS of new Objects
+2.Eventual Consistency for oversrite PUTS and DELETES(can take some time to propagate)
+
+S3 Features:
+1. Tiered Storage Available
+2. Lifecycle Management
+3. Versioning
+4. Encryption
+5. MFA Delete
+6. Secure your data using Access Control Lists and Bucket Policies
+
+S3 Storage Classes
+1. S3 Standard:99.99% availability, 99.999999999% durability
+2. S3-IA(Infrequently Accessed): Lower fee than S3, but are charged a retrieval fee
+3. S3 One Zone- IA (do not require the multiple availability zone data resilience)
+4. S3 - Intelligent Tiering (optimize costs)
+5. S3 Glacier(retrieval times configurable from minutes to hours)
+6. S3 Glacier Deep Archive (retrieval time of 12 hours is acceptable) lowest cost
+
+Exam tips:
+1. S3 is a universal namespace. That is,names must be unique globally
+2. Not suitable to install an operating system on
+3. Successful uploads will generate a HTTP 200 status code
+4. You can turn on MFA Delete
+
+S3 Encryption:
+Encryption in transit in achieved by: SSL/TLS
+Encryption at rest(server side) is achieved by:
+(1) S3 Managed Keys-SSE-S3
+(2) AWS Key Management Service, Managed Keys - SSE-KMS
+(3) Server Side Encryption With Customer Provided Keys - SSE-C
+Client Side Encryption
+
+S3 Version Control
+If enable the version of the bucket, the action delete will also be a new version of the object.
+1. Stores all versions of an object (including all writes and even if you delete and object)
+2. Great backup tool
+3. Once enabled, Versioning cannot be disabled, only suspended
+4. Integrates with Lifecycle rules
+5. Versioning has MFA Delete capability
+
+S3 Lifecycle Management
+Automates moving your objects between the different storage tiers.
+Can be used in conjunction with versioning
+Can be applied to current versions and previous versions.
+
+S3 Cross Region Replication
+1. Versioning must be enabled on both the source and destination buckets
+2. Regions must be unique
+3. Files in an existing bucket are not replicated automatically
+4. All subsequent updated files will be replicated automatically
+5. Delete markers are not replicated
+6. Delete individual versions or delete markers will not be replicated
+
+S3 Transfer Acceleration
+Utilises the CloudFront Edge Network to accelerate your uploads to S3.
+Instead of uploading directly to your S3 bucket, you can use a distinct URL to upload directly to an edge location which will then transfer that file to S3.

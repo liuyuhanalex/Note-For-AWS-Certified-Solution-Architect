@@ -1,0 +1,9 @@
+Snowball
+
+Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of AWS.
+
+Snowball comes in either a 50TB or 80TB.
+
+Snowmobile
+
+Snowmobile is an Ecabyte-scale data transfer service used to move extremely large amounts of data to AWS. You can transfer up to 100PB per Snowmobile. 

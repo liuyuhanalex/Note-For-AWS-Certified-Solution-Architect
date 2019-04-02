@@ -1,0 +1,7 @@
+Storage Gateway Types
+1. File Gateway (NFS)
+Files are stored as objects in your S3 buckets, accessed through a Network File System(NFS) mount point.
+2. Volume Gateway (iSCSI):
+(1)Stored Volumes: Entire Dataset is stored on site and is asynchronously backed up tp S3.
+(2)Cached Volumes: Entire Dataset is stored on S3 and the most frequently accessed data is cached on site.
+3. Tape Gateway (VTL) Virtual Tape Library

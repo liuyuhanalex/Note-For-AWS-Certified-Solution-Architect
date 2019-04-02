@@ -1,0 +1,15 @@
+CloudFront
+
+Key Terminology:
+1. Edge Location: This is the location where content will be cached.This is separate to an AWS Region/AZ.
+2. Origin: This is the origin of all the files that the CDN will distribute.This can be an S3 Bucket, an EC2 Instance, an Elastic Load Balancer. or Route53.
+3. Distribution: This is the name given the CDN which consists of a collection of Edge Locations.
+
+Exam tips:
+1. Edge locations are not just READ only, you can write to them too.
+2. Objects are cached for the life of the TTL(Time To Live).
+3. You can clear cached objects, but you will be charged.
+
+Types:
+1. Web : Webpages and so on
+2. RTMP : Using adobe Flash Media Server's RTMP protocol.

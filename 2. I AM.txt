@@ -1,0 +1,3 @@
+Identity Access Management
+
+Terminology:Users,Groups,Policies,Roles
