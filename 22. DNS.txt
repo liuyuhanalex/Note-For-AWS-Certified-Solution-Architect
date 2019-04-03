@@ -1,0 +1,19 @@
+DNS 
+DNS is used to convert human friendly domain names into an Internet Protocol(IP) address.
+
+Route53 Exam tips:
+1. ELBs do not have pre-defined IPv4 addresses; you resolve to them using a DNS name.
+2. Understand the difference between an Alias Record and a CNAME.
+3. Given the choice, always choose an Alias Record over a CNAME.
+
+Common DNS Types:
+1. SOA Records
+2. NS Records
+3. A Records
+4. CNAMES
+5. MX Records
+6. PTR Records
+
+Exam tips:
+1. You can buy domain names directly with AWS.
+2. It can take up to 3 days to register depending on the circumstances.
