@@ -1,0 +1,31 @@
+VPC Overview
+Amazon Virtual Private Cloud(Amazon VPC) lets you provision a logically isolated section of the Amazon Web Services(AWS) Cloud where you can launch AWS resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways.
+
+What can we do with a VPC:
+1. Launch instances into a subnet of your choosing.
+2. Assign custom IP address ranges in each subnet.
+3. Configure route tables between subnets.
+4. Create internet gateway and attach it to our VPC.
+5. Much better security control over your AWS resources.
+6. Instance security groups.
+7. Subnet network access control lists. (ACLS)
+
+Default VPC vs Custom VPC
+1. Default VPC is user friendly, allowing you to immediately deploy instances.
+2. All subnets in default VPC have a route out to the internet.
+3. Each EC2 instance has both a public and private IP address.
+
+VPC Peering
+1. Allows you to connect one VPC with another via a direct network route using private IP address.
+2. Instances behave as if they were on the same private network
+3. You can peer VPC's with other AWS accounts as well as with other VPCs in the same account.
+4. Peering is in a star configuration:ie 1 central VPC peers with 4 others. NO TRANSITIVE PEERING!!!
+5. You can peer across regions.
+
+Exam tips:
+1. When you create a VPC a default Route Table, Network Access Control List(NACL) and a default Security Group.
+2. It won't create any subnets, nor will it create a default internet gateway.
+3. US-East-1A in your AWS account can be a completely different availability zone to US-East-1A in another AWS account. The AZ's are randomized.
+4. Amazon always reserve 5 IP addresses within your subnets.
+5. You can only have 1 Internet Gateway per VPC.
+6. Security Groups can't span VPCs.
