@@ -1,0 +1,6 @@
+Elastic Transcoder
+What is Elastic Transcoder?
+1. Media Transcoder in the cloud
+2. Convert media files from their original source format into different formats that will play on smartphones, tablets PCs,etc.
+3. Provides transcoding presets for popular output formats, which means that you don't need to guess about which settings work best on particular devices.
+4. Pay based on the minutes that you transcode and the resolution at which you transcode.

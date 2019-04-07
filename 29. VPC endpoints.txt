@@ -1,0 +1,4 @@
+There are two types of VPC endpoints:
+1. Interface Endpoints
+2. Gateway Endpoints
+

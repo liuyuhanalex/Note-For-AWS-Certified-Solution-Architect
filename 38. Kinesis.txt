@@ -1,0 +1,14 @@
+Kinesis
+Amazon Kinesis is a platform on AWS to send your streaming data to. Kinesis makes it easy to load and analyze streaming data, and also providing the ability for you to build your own custom applications for your business needs.
+
+Three Different Types of Kinesis
+1. Kinesis Streams
+Kinesis Streams Consist of Shards:
+(1) 5 transactions per second for reads, up to a maximum total data read rate of 2MB per second and up tp 1000 records per second for writes, up to a maximum total data write rate of 1MB per second(including partition keys).
+(2) The data capacity of your stream is a function of the number of shards that you specify for stream. The total capacity of the stream is the sum of the capacities of its shards.
+2. Kinesis Firehose
+3. Kinesis Analytics
+
+Exam tips:
+1. Know the difference between Kinesis Streams and Kinesis Firehose. You will be given scenario questions and you must choose the most relevant service.
+2. Understand what Kinesis Analytics is.

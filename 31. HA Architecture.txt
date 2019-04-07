@@ -1,0 +1,10 @@
+HA Architecture
+Plan For Failure: Everythins fails. Everything!
+
+Remember the following:
+1. Always Design for failure
+2. Use Multiple AZ's and Multiple Regions where ever you can
+3. Know the difference between Multi-AZ and Read Replicas for RDS.
+4. Know the difference between scaling out and scaling up.
+5. Read the question carefully and always consider the cost element.
+6. Know the different S3 storage classes.

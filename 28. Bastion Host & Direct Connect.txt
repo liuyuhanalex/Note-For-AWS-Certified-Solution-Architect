@@ -1,0 +1,9 @@
+Exam tips:
+1. A NAT Gateway or NAT Instance is used to provide internet traffic to ECS instances in a private subnets.
+2. A Bastion is used to securely administer EC2 instances(Using SSH or RDP). Bastions are called Jump Boxes in Australia.
+3. You cannot use a NAT Gateway as a Bastion host.
+
+Direct Connect:
+1. Direct Connect directly connects your data center to AWS.
+2. Usefule for high throughput workloads (ie lots of network traffic)
+3. Or if you need a stable and reliable secure connection.

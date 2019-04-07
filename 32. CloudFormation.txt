@@ -1,0 +1,3 @@
+CloudFormation
+1. Is a way of completely scripting your cloud environment
+2. Quick Start is a bunch of CloudFormation templates already built by AWS Solutions Architects allowing you to create complex environment very quickly.

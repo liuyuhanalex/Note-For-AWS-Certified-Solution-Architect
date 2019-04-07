@@ -1,0 +1,15 @@
+SNS
+Amazon Simple Notification Service(Amazon SNS) is a web service that makes it easy to set up, operate, and send notifications from the cloud.
+It provides developers with a highly scalable, flexible, and cost-effective capability to publish messages from an application and immediately deliver them  to subscibers or other applications.
+
+SNS Benefits:
+1. Instantaneous, push-based delivery(no polling)
+2. Simple APIs and easy integration with applications
+3. Flexible message delivery over multiple transport protocols
+4. Inexpensive, pay-as-you-go model with no up-front costs
+5. Web-based AWS Management Console offers the simplicity of a point-and-click interface.
+
+SNS vs SQS?
+1. Both Messaging Services in AWS
+2. SNS - Push
+3. SQS - Polls
